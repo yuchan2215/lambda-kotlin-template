@@ -37,7 +37,6 @@ tasks.withType<KotlinCompile> {
 
 tasks {
     shadowJar {
-        minimize()
         mergeServiceFiles()
     }
 }
